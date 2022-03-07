@@ -1,0 +1,18 @@
+{
+  "name": "goal-fullstack-app",
+  "version": "1.0.0",
+  "description": "Goal setting app for fullstack development practice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Raymond Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4"
+  }
+}
